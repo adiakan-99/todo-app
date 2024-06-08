@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(45, 45, 45);
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.table th {
+  background-color: rgb(79, 78, 78) !important;
+  color: white !important;
+}
+
+.table td {
+  background-color: rgb(45, 45, 45) !important;
+  color: white !important;
+}
+
+input {
+  background-color: rgb(198, 195, 195) !important;
 }
